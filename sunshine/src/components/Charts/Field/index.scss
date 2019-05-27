@@ -1,0 +1,15 @@
+.field {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  .label,
+  .number {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .number {
+    color: rgba(0, 0, 0, 0.85);
+    margin-left: 8px;
+  }
+}
